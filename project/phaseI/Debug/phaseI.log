@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Documentos\UAH\CPE-381\project\phaseI\Source.cpp(74,11): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+D:\Documentos\UAH\CPE-381\project\phaseI\Source.cpp(89,43): warning C4244: '=': conversión de 'double' a 'twoBytes'; posible pérdida de datos
+  phaseI.vcxproj -> D:\Documentos\UAH\CPE-381\project\phaseI\Debug\phaseI.exe

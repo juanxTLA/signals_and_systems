@@ -1,0 +1,644 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando la memoria sin inicializar 'channel'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 6,
+                  "endLine": 86,
+                  "endColumn": 6
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 52
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 57
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "'channel' no se ha inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaración"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Entrar en este bucle, (se asume 'i<dataSize')"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'abs(audioData[i])>maxVal' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Omitir esta bifurcación, (se asume que 'outputData[i]>aMax' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Salir de este bucle, ('i<dataSize' es false)"
+                        }
+                      },
+                      "kinds": [
+                        "bifurcar"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Se usa 'channel', pero puede que no se haya inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "uso"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29910.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\vs\\IDE\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00F7B1C0 -il C:\\Users\\juanc\\AppData\\Local\\Temp\\_CL_3ec0a921ast -typedil -f Source.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829910 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_CRT_SECURE_NO_WARNINGS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\Source.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory D:\\Documentos\\UAH\\CPE-381\\project\\phaseI -analyze:rulesetdirectory ;D:\\vs\\IDE\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\vs\\IDE\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\vs\\IDE\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\vs\\IDE\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\vs\\IDE\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\vs\\IDE\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I D:\\Documentos\\UAH\\CPE-381\\project\\phaseI\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Documentos/UAH/CPE-381/project/phaseI/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "1119e0dad05dcf0570782f74d3050097"
+          }
+        }
+      ]
+    }
+  ]
+}

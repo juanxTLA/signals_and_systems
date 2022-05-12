@@ -1,0 +1,14 @@
+-----------------------------
+Summary
+-----------------------------
+Filename: Tarrat_Juan_orig.wav
+-----------------------------
+Sampling Freq: 22050
+Number of channels: 2
+Bits per Sample: 16
+File duration: 14s
+-----------------------------
+Maximum value (absolute value): 12010
+Channel: 2
+Program duration: 785ms
+-----------------------------
